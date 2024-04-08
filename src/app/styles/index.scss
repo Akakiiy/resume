@@ -1,0 +1,14 @@
+//reset file
+@import "./reset/reset";
+
+//global styles and classes
+@import "./global/global";
+
+//themes
+@import "themes/first-page-theme";
+@import "themes/second-page-theme";
+@import "themes/third-page-theme";
+@import "themes/fourth-page-theme";
+
+//common classes for whole application
+@import "src/shared/styles";

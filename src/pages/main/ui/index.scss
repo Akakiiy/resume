@@ -1,0 +1,24 @@
+.MainPage {
+  justify-content: space-around;
+
+  background-color: var(--color-bg-primary);
+
+  h1 {
+    font-size: 40px;
+    color: var(--color-typo-primary);
+  }
+
+  h2 {
+    font: var(--font-l);
+    color: var(--color-typo-secondary);
+  }
+
+  h3 {
+    font: var(--font-m);
+    color: var(--color-additional);
+    background-color: var(--color-bg-secondary);
+    padding: 20px;
+    border: 1px solid var(--color-additional);
+    border-radius: 16px;
+  }
+}

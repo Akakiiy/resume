@@ -1,0 +1,17 @@
+.MainTitle {
+
+  &-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  &-slider {
+    position: absolute;
+    top: 4%;
+    bottom: 4%;
+    left: 0;
+    right: 0;
+    background-color: var(--color-typo-secondary);
+    z-index: 20;
+  }
+}
