@@ -11,5 +11,6 @@ export default defineConfig({
       '~pages': path.resolve('src/pages'),
       '~shared': path.resolve('src/shared'),
     }
-  }
+  },
+  base: "/resume"
 })
